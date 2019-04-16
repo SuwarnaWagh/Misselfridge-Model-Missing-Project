@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-397241113\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="Test1([New In~http://www.missselfridge.com/en/msuk/category/new-in-299046/view-all-299058])">Test1([New In~http://www.missselfridge.com/en/msuk/category/new-in-299046/view-all-299058])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/checked-tab-sleeve-blaze...)">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/checked-tab-sleeve-blaze...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-lizzie-high-waist...)">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-lizzie-high-waist...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-black-floral-shir...)">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-black-floral-shir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-v-neck-side-stripe...)">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-v-neck-side-stripe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/pink-checked-knitted-jum...)">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/pink-checked-knitted-jum...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="TestReadNavigationMatrix">TestReadNavigationMatrix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkgtestmethods.TestCase1" hash-for-method="testWriteData">testWriteData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pkgtestmethods.TestCase1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1([New In~http://www.missselfridge.com/en/msuk/category/new-in-299046/view-all-299058])">
+                  </a> <!-- Test1([New In~http://www.missselfridge.com/en/msuk/category/new-in-299046/view-all-299058]) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">([New In~http://www.missselfridge.com/en/msuk/category/new-in-299046/view-all-299058])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/checked-tab-sleeve-blaze...)">
+                  </a> <!-- Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/checked-tab-sleeve-blaze...) -->
+                  <span class="method-name">Test2</span>
+                  <span class="parameters">([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/checked-tab-sleeve-blazer-7988369~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-jacquard-co-ord-7988002?bundle=true~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/grey-side-stripe-funnel-neck-ribbed-knitted-top-7985439~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/tassel-bar-camisole-top-7985378~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-lurex-floral-bow-neck-jumpsuit-7985712~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/floral-strappy-jumpsuit-7876849~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/fringe-bra-top-7986776~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/button-pencil-skirt-7968548~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/leopard-print-kick-flare-trousers-7986165~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/green-zip-funnel-neck-knitted-bodycon-dress-7985608~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/khaki-faux-fur-trim-puffer-jacket-7986214~New In])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-lizzie-high-waist...)">
+                  </a> <!-- Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-lizzie-high-waist...) -->
+                  <span class="method-name">Test2</span>
+                  <span class="parameters">([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-lizzie-high-waist-skinny-fit-blue-jeans-7986789~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/lizzie-high-waist-skinny-fit-mid-wash-mousse-jeans-7986125~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/texas-embellished-skater-trainers-7985413~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/green-winter-ponte-blazer-7934843~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-winter-ponte-blazer-7975350~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/alyssa-patent-zip-ankle-boots-7977322~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/aleka-knit-point-stiletto-boots-7977305~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/aleka-knit-point-stiletto-boots-7977335~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/alyssa-patent-zip-ankle-boots-7977264~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/rust-button-pencil-skirt-7986162~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/colour-block-striped-ribbed-top-7895199~New In])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-black-floral-shir...)">
+                  </a> <!-- Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-black-floral-shir...) -->
+                  <span class="method-name">Test2</span>
+                  <span class="parameters">([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-black-floral-shirred-skater-dress-7985450~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/blue-oversized-brushed-scarf-7985680~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-zip-funnel-neck-rib-knitted-top-7986069~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/burgundy-tab-sleeve-blazer-7827370~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/green-zip-funnel-neck-rib-knitted-top-7985336~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/ochre-faux-fur-trim-puffer-coat-7985595~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/long-sleeve-button-through-scoop-neck-top-7985460~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/long-sleeve-scoop-neck-body-7938853~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/texas-embellished-skater-trainers-7985394~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/green-oversized-brushed-scarf-7985697~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/ochre-oversized-brushed-scarf-7985702~New In])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-v-neck-side-stripe...)">
+                  </a> <!-- Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-v-neck-side-stripe...) -->
+                  <span class="method-name">Test2</span>
+                  <span class="parameters">([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-v-neck-side-stripe-ribbed-knitted-dress-7985795~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/ponte-button-detail-blazer-7934830~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/burgundy-v-neck-ribbed-knitted-dress-7986649~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-lace-victoriana-blouse-7985570~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/blush-faux-fur-trim-puffer-jacket-7986087~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/lizzie-high-waist-skinny-fit-dark-blue-jeans-7986185~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/leopard-print-bra-top-7986716~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/red-peplum-ribbed-knitted-top-7984783~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/lizzie-high-waist-skinny-fit-light-blue-jeans-7986108~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/ochre-winter-ponte-jacket-7985455~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/audrey-hiker-boots-7985618~New In])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/pink-checked-knitted-jum...)">
+                  </a> <!-- Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/pink-checked-knitted-jum...) -->
+                  <span class="method-name">Test2</span>
+                  <span class="parameters">([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/pink-checked-knitted-jumper-7972585~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/magic-body-solutions-celebrities-breast-tape-7974634~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/weekend-glitter-t-shirt-7902068~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-steffi-black-super-high-waisted-jeans-7973237~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/lizzie-high-waist-super-skinny-fit-corset-button-through-jeans-7973971~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/check-pinafore-jumpsuit-7973585~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/lizzie-high-waist-super-skinny-fit-blue-jeans-7981163~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/camel-faux-fur-fit-and-flare-coat-7971086~New In, http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/animal-print-soft-touch-knitted-cardigan-7979818~New In])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestReadNavigationMatrix">
+                  </a> <!-- TestReadNavigationMatrix -->
+                  <span class="method-name">TestReadNavigationMatrix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteData">
+                  </a> <!-- testWriteData -->
+                  <span class="method-name">testWriteData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-397241113\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pkgtestmethods.TestCase1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test2')
+data.setCell(0, 2, 'pkgtestmethods.TestCase1')
+data.setCell(0, 3, 350430);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test2')
+data.setCell(1, 2, 'pkgtestmethods.TestCase1')
+data.setCell(1, 3, 231005);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test2')
+data.setCell(2, 2, 'pkgtestmethods.TestCase1')
+data.setCell(2, 3, 222124);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test2')
+data.setCell(3, 2, 'pkgtestmethods.TestCase1')
+data.setCell(3, 3, 165697);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test2')
+data.setCell(4, 2, 'pkgtestmethods.TestCase1')
+data.setCell(4, 3, 143769);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test1')
+data.setCell(5, 2, 'pkgtestmethods.TestCase1')
+data.setCell(5, 3, 66989);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestReadNavigationMatrix')
+data.setCell(6, 2, 'pkgtestmethods.TestCase1')
+data.setCell(6, 3, 10454);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testWriteData')
+data.setCell(7, 2, 'pkgtestmethods.TestCase1')
+data.setCell(7, 3, 3938);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pkgtestmethods.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">TestReadProperties</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">TestReadNavigationMatrix</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test1([New In~http://www.missselfridge.com/en/msuk/category/new-in-299046/view-all-299058])</span>
+                <span class="method-start">11626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-black-floral-shir...)</span>
+                <span class="method-start">79725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/checked-tab-sleeve-blaze...)</span>
+                <span class="method-start">79725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/petite-lizzie-high-waist...)</span>
+                <span class="method-start">79725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/pink-checked-knitted-jum...)</span>
+                <span class="method-start">79725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test2([http://www.missselfridge.com/en/msuk/product/new-in-299046/view-all-299058/black-v-neck-side-stripe...)</span>
+                <span class="method-start">79725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWriteData</span>
+                <span class="method-start">431380 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
